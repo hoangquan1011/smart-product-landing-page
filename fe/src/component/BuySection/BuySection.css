@@ -80,7 +80,7 @@
 .order-form input:focus,
 .order-form textarea:focus{
 
-    border-color:black;
+    border-color:gray;
 
     box-shadow:0 0 0 4px rgba(30, 31, 31, 0.15);
 

@@ -4,12 +4,13 @@ import HeroSection from './component/HeroSection/HeroSection';
 import Collections from './component/Collections/Collections';
 import WhyChoose from './component/WhyChoose/WhyChoose';
 import BuySection from './component/BuySection/BuySection';
+import FeatureOne from './component/FeatureOne/FeatureOne';
 function App() {
   return (
     <div className="App">
       <Header />
       <HeroSection />
-      <Collections />
+      <FeatureOne />
       <WhyChoose />
       <BuySection />
     </div>
