@@ -24,9 +24,7 @@ function HeroSection() {
 
       {/* Nội dung */}
       <div className="hero-content">
-        <span className="hero-badge">
-          NEXT GENERATION DRONE
-        </span>
+
 
         <h1>DJI AVATA 360</h1>
 
@@ -37,7 +35,18 @@ function HeroSection() {
         </p>
 
         <div className="hero-buttons">
-          <button className="primary-btn">
+          <button
+            className="primary-btn"
+            onClick={() => {
+              const section = document.getElementById("buy-section");
+              if (section) {
+                section.scrollIntoView({
+                  behavior: "smooth",
+                  block: "start",
+                });
+              }
+            }}
+          >
             Buy Now
           </button>
 

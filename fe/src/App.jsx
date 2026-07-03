@@ -3,6 +3,7 @@ import Header from './component/Header/Header';
 import HeroSection from './component/HeroSection/HeroSection';
 import Collections from './component/Collections/Collections';
 import WhyChoose from './component/WhyChoose/WhyChoose';
+import BuySection from './component/BuySection/BuySection';
 function App() {
   return (
     <div className="App">
@@ -10,6 +11,7 @@ function App() {
       <HeroSection />
       <Collections />
       <WhyChoose />
+      <BuySection />
     </div>
   );
 }

@@ -1,0 +1,125 @@
+.buy-section{
+
+    min-height:100vh;
+
+    background:#ffffff;
+
+    color:#111111;
+
+    display:flex;
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:center;
+
+    padding:100px 20px;
+
+}
+
+.buy-section h2{
+
+    font-size:42px;
+
+    margin-bottom:15px;
+
+    color:#111;
+
+}
+
+.buy-section p{
+
+    color:#666;
+
+    margin-bottom:40px;
+
+}
+
+.order-form{
+
+    width:100%;
+    max-width:650px;
+
+    display:flex;
+    flex-direction:column;
+
+    gap:18px;
+
+    background:#fff;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+}
+
+.order-form input,
+.order-form textarea{
+
+    width:100%;
+
+    padding:15px 18px;
+
+    border:1px solid #dcdcdc;
+
+    border-radius:10px;
+
+    background:#fff;
+
+    color:#111;
+
+    font-size:16px;
+
+    outline:none;
+
+    transition:.3s;
+
+}
+
+.order-form input:focus,
+.order-form textarea:focus{
+
+    border-color:black;
+
+    box-shadow:0 0 0 4px rgba(30, 31, 31, 0.15);
+
+}
+
+.order-form textarea{
+
+    resize:vertical;
+
+}
+
+.order-form button{
+
+    margin-top:10px;
+
+    padding:16px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#111;
+
+    color:#fff;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.order-form button:hover{
+
+    background: gray;
+
+    color:#fff;
+
+}
