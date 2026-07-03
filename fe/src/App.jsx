@@ -3,7 +3,6 @@ import Header from './component/Header/Header';
 import HeroSection from './component/HeroSection/HeroSection';
 import Collections from './component/Collections/Collections';
 import WhyChoose from './component/WhyChoose/WhyChoose';
-import Feature from './component/FeaturedDrone/FeaturedDrone';
 function App() {
   return (
     <div className="App">
