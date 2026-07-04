@@ -1,0 +1,26 @@
+.feature-two {
+    width: 100%;
+    min-height: vh;
+    background: #000;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 80px;
+    padding-bottom: 100px ;
+}
+
+.feature-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.feature-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
