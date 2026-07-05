@@ -18,12 +18,6 @@ function Footer() {
             Drone<span>Planet</span>
           </h2>
 
-          <p>
-            Discover the next generation of intelligent aerial technology.
-            DronePlanet delivers premium drones designed for creators,
-            explorers, and professionals around the world.
-          </p>
-
           <div className="socials">
             <a
               href="https://facebook.com"
